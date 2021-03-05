@@ -6,7 +6,11 @@ public class TrainControllerImpl implements TrainController {
 
 	private int step = 0;
 	private int referenceSpeed = 0;
+<<<<<<< HEAD
 	private int speedLimit = 1;
+=======
+	private int speedLimit = 2;
+>>>>>>> branch-B
 
 	@Override
 	public void followSpeed() {
